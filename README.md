@@ -10,9 +10,9 @@ Atomic contributions to the electronic part of the binding energy (Eq. 10)
 
 smiles: smiles string of the compound
 
-Z1: nuclear of binding partner 1
+Z1: nuclear charge of binding partner 1
 
-Z2: nuclear of binding partner 2
+Z2: nuclear charge of binding partner 2
 
 E_Z1: atomic energy of atom 1
 
@@ -30,4 +30,18 @@ Eb_homo_Z1_H: sum of atomic binding energies of the hydrogens bonded to atom 1 (
 
 Eb_homo_Z2_H: sum of atomic binding energies of the hydrogens bonded to atom 2 (Eq. 10)
 
-## 
+
+## binding_energies_pbe0.csv
+Binding energies for single bonded molecules calculated with PBE0/def2-TZVP
+
+smiles: smiles string/heavy atoms
+
+Z1: nuclear charge of binding partner 1
+
+Z2: nuclear charge of binding partner 2
+
+d: distance between binding partner 1 and binding partner 2
+
+energy: total energy in Hartree
+
+bfe: binding energy in Hartree

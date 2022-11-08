@@ -45,3 +45,29 @@ d: distance between binding partner 1 and binding partner 2
 energy: total energy in Hartree
 
 bfe: binding energy in Hartree
+
+## binding_energies_db_row_[row number].csv
+Binding energies for double bonded molecules calculated with PBE0/def2-TZVP in rows 2, 3, 4 of the periodic table
+
+Z1: nuclear charge of binding partner 1
+
+Z2: nuclear charge of binding partner 2
+
+bde_TS: energy (in Hartree) between fragments in triplet and molecules in singlet state 
+
+bde_GS: energy (in Hartree) between fragments and molecules in their ground state
+
+bde_TT: energy (in Hartree) between fragments in triplet and molecules in triplet state 
+
+bde_SS: energy (in Hartree) between fragments in singlet and molecules in singlet state 
+
+## optimization_models.ipynb
+Code to optimize the paramters in Eq. (2), (12), (18), (25)
+
+Code for the recalibration of the model to double bonds
+
+Code for the recalibration of the model to random data from a uniform distribution
+
+
+
+
